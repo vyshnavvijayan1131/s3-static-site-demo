@@ -1,22 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <title>🚀 My Scalable Website</title>
-  <style>
-    body { 
-      font-family: Arial, sans-serif; 
-      background: linear-gradient(120deg, #4facfe, #00f2fe); 
-      color: white; 
-      text-align: center; 
-      padding: 50px; 
-    }
-    h1 { font-size: 3em; }
-    p { font-size: 1.5em; }
-  </style>
+  <title>Vyshnav Static Site</title>
+  <meta charset="utf-8" />
 </head>
-<body>
-  <h1>Welcome to My Scalable Static Website 🌍</h1>
-  <p>Deployed with AWS S3 + Cloudflare + GitHub Actions</p>
+<body style="font-family: Arial, sans-serif; text-align:center; padding:40px;">
+  <h1>🚀 Vyshnav's Static Site</h1>
+  <p>Auto-deployed via <strong>GitHub Actions → AWS S3</strong></p>
+  <small>Deployed: <span id="time"></span></small>
+  <script>document.getElementById('time').innerText = new Date().toLocaleString();</script>
 </body>
 </html>
+
