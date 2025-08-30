@@ -1,59 +1,36 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Vyshnav's DevOps Project</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      text-align: center;
-      background: #f5f6fa;
-      margin: 0;
-      padding: 0;
-    }
-    header {
-      background: #2c3e50;
-      color: white;
-      padding: 20px;
-    }
-    section {
-      margin: 40px;
-    }
-    footer {
-      background: #2c3e50;
-      color: white;
-      padding: 10px;
-      position: fixed;
-      width: 100%;
-      bottom: 0;
-    }
-  </style>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Vyshnav | DevOps Static Site (GitHub Pages CI/CD)</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header>
-    <h1>🚀 Vyshnav's DevOps Project</h1>
-    <p>CI/CD with GitHub Actions + AWS S3 + Cloudflare</p>
+  <header class="wrap">
+    <h1>🚀 DevOps Static Website</h1>
+    <p>Auto-deployed with <strong>GitHub Actions → GitHub Pages</strong>.</p>
   </header>
 
-  <section>
-    <h2>About the Project</h2>
-    <p>This project demonstrates a fully automated CI/CD pipeline using GitHub Actions.</p>
-    <p>Every commit → GitHub → Deploys automatically to AWS S3 → Served globally with Cloudflare + HTTPS.</p>
-  </section>
+  <main class="wrap grid">
+    <section>
+      <h2>What this demo shows</h2>
+      <ul>
+        <li>Commit → CI checks → Auto deploy to GitHub Pages</li>
+        <li>HTTPS, CDN, cache headers</li>
+        <li>Easy to extend with tests & Cloudflare custom domain</li>
+      </ul>
+    </section>
 
-  <section>
-    <h2>Tech Stack</h2>
-    <ul style="list-style: none;">
-      <li>✅ AWS S3 (Hosting)</li>
-      <li>✅ Cloudflare (CDN + SSL)</li>
-      <li>✅ GitHub Actions (CI/CD)</li>
-      <li>✅ Git + HTML/CSS</li>
-    </ul>
-  </section>
+    <section>
+      <h2>About</h2>
+      <p>Built by <strong>Vyshnav Vijayan</strong>. Simple, fast, and reproducible.</p>
+      <p><a class="btn" href="https://github.com/vyshnavvijayan1131/s3-static-site-demo">View repository →</a></p>
+    </section>
+  </main>
 
-  <footer>
-    <p>© 2025 Vyshnav Vijayan | DevOps Demo Project</p>
+  <footer class="wrap">
+    <small>© Vyshnav Vijayan — CI/CD with GitHub Pages</small>
   </footer>
 </body>
 </html>
