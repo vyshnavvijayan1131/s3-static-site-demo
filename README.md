@@ -14,7 +14,9 @@ This is my \*\*DevOps CI/CD project\*\* using:
 
 🌍 \*\*Live Site:\*\*  
 
-\[https://vyshnavvijayan1131.github.io/s3-static-site-demo/](https://vyshnavvijayan1131.github.io/s3-static-site-demo/)
+\[View demo site →](https://vyshnavvijayan1131.github.io/s3-static-site-demo/)
+
+
 
 
 
