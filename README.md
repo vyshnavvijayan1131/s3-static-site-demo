@@ -28,6 +28,12 @@ This is my \*\*DevOps CI/CD project\*\* using:
 
 !\[Deploy Status](https://github.com/vyshnavvijayan1131/s3-static-site-demo/actions/workflows/pages.yml/badge.svg)
 
+[![pages-build-deployment](https://github.com/vyshnavvijayan1131/s3-static-site-demo/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/vyshnavvijayan1131/s3-static-site-demo/actions/workflows/pages/pages-build-deployment)
+
+# 🚀 DevOps Static Website  
+Auto-deployed with **GitHub Actions → GitHub Pages**  
+
+
 
 
 ---
