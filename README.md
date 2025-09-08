@@ -16,7 +16,7 @@ This is my \*\*DevOps CI/CD project\*\* using:
 
 \[View demo site →](https://vyshnavvijayan1131.github.io/s3-static-site-demo/)
 
-
+about page (https://vyshnavvijayan1131.github.io/s3-static-site-demo/about.html)
 
 
 
